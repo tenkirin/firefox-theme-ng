@@ -2,7 +2,7 @@
   "name": "firefox-theme-ng",
   "displayName": "Firefox Theme NG",
   "description": "A VS Code color theme inspired by Firefox's browser chrome — colors extracted directly from Firefox's built-in themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "tenkirin",
   "author": "tenkirin",
   "license": "MIT",
