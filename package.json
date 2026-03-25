@@ -1,0 +1,64 @@
+{
+  "name": "firefox-theme-ng",
+  "displayName": "Firefox Theme NG",
+  "description": "A VS Code color theme inspired by Firefox's browser chrome — colors extracted directly from Firefox's built-in themes",
+  "version": "1.0.0",
+  "publisher": "tenkirin",
+  "author": "tenkirin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenkirin/firefox-theme-ng"
+  },
+  "homepage": "https://github.com/tenkirin/firefox-theme-ng#readme",
+  "bugs": {
+    "url": "https://github.com/tenkirin/firefox-theme-ng/issues"
+  },
+  "icon": "images/icon.png",
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.svg?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF",
+      "description": "Current version",
+      "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
+    },
+    {
+      "url": "https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.svg?label=Installs&style=flat-square&colorA=2B2A33&colorB=54FFBD",
+      "description": "Installs",
+      "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
+    },
+    {
+      "url": "https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.svg?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9",
+      "description": "Rating",
+      "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details"
+    }
+  ],
+  "engines": {
+    "vscode": "^1.113.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "firefox",
+    "theme",
+    "dark",
+    "light",
+    "mozilla",
+    "browser",
+    "color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Firefox Dark NG",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Firefox Light NG",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      }
+    ]
+  }
+}
