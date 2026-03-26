@@ -1,5 +1,9 @@
 # Firefox Theme NG for VS Code
 
+[![Release](https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.webp?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
+[![Installs](https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=54FFBD)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
+[![Rating](https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.webp?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details)
+
 ![banner](./images/banner.png)
 
 A VS Code color theme inspired by Firefox's [browser chrome](https://developer.mozilla.org/en-US/docs/Glossary/Chrome) — not just DevTools, but the full UI palette you see every day. Colors are extracted directly from Firefox's built-in theme definitions.
@@ -11,7 +15,7 @@ A VS Code color theme inspired by Firefox's [browser chrome](https://developer.m
 
 ## Installation
 
-### From Marketplace
+### From [Marketplace](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
 
 Search for "Firefox Theme NG" in the VS Code Extensions view (`Ctrl+Shift+X`).
 
@@ -24,32 +28,17 @@ Search for "Firefox Theme NG" in the VS Code Extensions view (`Ctrl+Shift+X`).
 
 ## Color Sources
 
-All workbench/UI colors are derived from Firefox's `omni.ja` assets:
+Firefox Theme NG uses two source layers from Firefox's `omni.ja` assets:
 
-| VS Code Element                 | Firefox Source                                       |
-| ------------------------------- | ---------------------------------------------------- |
-| Editor background (dark)        | `--tabpanel-background-color: #2B2A33`               |
-| Sidebar background (dark)       | `--sidebar-background-color: #1C1B22`                |
-| Tab bar / Status bar (dark)     | Derived from Firefox gray-100: `#15141A`             |
-| Input / Popup background (dark) | `--input-bgcolor / --arrowpanel-background: #42414D` |
-| Borders (dark)                  | `--arrowpanel-border-color: #52525E`                 |
-| Primary text (dark)             | `--button-text-color: #FBFBFE`                       |
-| Accent (dark)                   | `--tab-loading-fill: #0A84FF`                        |
-| Links (dark)                    | `--link-color: #00DDFF`                              |
-| Attention (dark)                | `--attention-dot-color: #54FFBD`                     |
-| Warning (dark)                  | `--warning-icon-bgcolor: #FFBD4F`                    |
-| Editor background (light)       | White (Firefox default)                              |
-| Sidebar background (light)      | `--tabpanel-background-color: #F9F9FB`               |
-| Accent (light)                  | `--color-accent-primary: #0061E0`                    |
-| Primary text (light)            | `--button-text-color: #15141A`                       |
-| Borders (light)                 | `--arrowpanel-border-color: #F0F0F4`                 |
-| Attention (light)               | `--attention-dot-color: #2AC3A2`                     |
-| Warning (light)                 | `--warning-icon-bgcolor: #FFA436`                    |
+| Theme Layer           | Firefox Source                                                                     |
+| --------------------- | ---------------------------------------------------------------------------------- |
+| Workbench / UI colors | `omni/chrome/browser/skin/classic/browser/browser-colors.css` and `browser.css`    |
+| Syntax / token colors | `omni/chrome/devtools/skin/variables.css`, `light-theme.css`, and `dark-theme.css` |
 
 ## Credits
 
 - Original [Firefox Theme](https://github.com/firefox-theme/visual-studio-code) (MIT License)
-- Color values derived from Firefox (MPL 2.0). No MPL-licensed source code is included in this distribution.
+- Color values derived from Firefox (MPL 2.0). No MPL-licensed source code is included in this distribution
 
 ## License
 
