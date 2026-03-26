@@ -12,7 +12,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#93939522",
+        "foreground": "#93939588",
         "fontStyle": "italic"
       }
     },
@@ -593,7 +593,7 @@
       "name": "HTML Comment",
       "scope": "comment.block.html",
       "settings": {
-        "foreground": "#93939522"
+        "foreground": "#93939588"
       }
     },
     {
