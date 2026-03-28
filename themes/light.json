@@ -606,7 +606,7 @@
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag",
       "settings": {
-        "foreground": "#0074E8"
+        "foreground": "#38383D"
       }
     },
     {
