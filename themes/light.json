@@ -1344,6 +1344,15 @@
     "titleBar.inactiveForeground": "#5B5B66",
     "titleBar.border": "#F0F0F4",
 
+    "menubar.selectionForeground": "#15141A",
+    "menubar.selectionBackground": "#E0E0E6",
+    "menu.foreground": "#15141A",
+    "menu.background": "#FFFFFF",
+    "menu.selectionForeground": "#15141A",
+    "menu.selectionBackground": "#E0E0E6",
+    "menu.separatorBackground": "#CFCFD8",
+    "menu.border": "#F0F0F4",
+
     "notificationCenter.border": "#CFCFD8",
     "notificationCenterHeader.foreground": "#15141A",
     "notificationCenterHeader.background": "#F0F0F4",
