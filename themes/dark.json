@@ -1146,7 +1146,7 @@
     "list.focusForeground": "#FBFBFE",
     "list.focusHighlightForeground": "#00DDFF",
     "list.highlightForeground": "#00DDFF",
-    "list.hoverBackground": "#42414D",
+    "list.hoverBackground": "#52525E",
     "list.hoverForeground": "#FBFBFE",
     "list.inactiveSelectionBackground": "#42414D",
     "list.inactiveSelectionForeground": "#FBFBFE",
@@ -1346,7 +1346,7 @@
 
     "menubar.selectionForeground": "#FBFBFE",
     "menubar.selectionBackground": "#42414D",
-    "menu.foreground": "#FBFBFE",
+    "menu.foreground": "#BFBFC9",
     "menu.background": "#42414D",
     "menu.selectionForeground": "#FBFBFE",
     "menu.selectionBackground": "#61616B",
