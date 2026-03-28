@@ -5,7 +5,18 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#15141A"
+        "foreground": "#38383D"
+      }
+    },
+    {
+      "name": "Embedded code",
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded",
+        "string meta.image.inline.markdown"
+      ],
+      "settings": {
+        "foreground": "#38383D"
       }
     },
     {
@@ -64,7 +75,7 @@
       "name": "Template expression",
       "scope": "meta.template.expression",
       "settings": {
-        "foreground": "#003EAA"
+        "foreground": "#38383D"
       }
     },
     {
@@ -96,10 +107,24 @@
       }
     },
     {
+      "name": "Meta preprocessor string",
+      "scope": "meta.preprocessor.string",
+      "settings": {
+        "foreground": "#003EAA"
+      }
+    },
+    {
+      "name": "Meta preprocessor numeric",
+      "scope": "meta.preprocessor.numeric",
+      "settings": {
+        "foreground": "#003EAA"
+      }
+    },
+    {
       "name": "Null / Undefined",
       "scope": ["constant.language.null", "constant.language.undefined"],
       "settings": {
-        "foreground": "#5C5C5F"
+        "foreground": "#DD00A9"
       }
     },
     {
@@ -156,6 +181,13 @@
       }
     },
     {
+      "name": "Constant regexp",
+      "scope": "constant.regexp",
+      "settings": {
+        "foreground": "#003EAA"
+      }
+    },
+    {
       "name": "Variable",
       "scope": ["variable", "variable.language", "variable.interpolation"],
       "settings": {
@@ -164,7 +196,11 @@
     },
     {
       "name": "Variable constant",
-      "scope": ["variable.other.constant", "constant.variable"],
+      "scope": [
+        "variable.other.constant",
+        "variable.other.enummember",
+        "constant.variable"
+      ],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -261,7 +297,7 @@
       "name": "Keyword type",
       "scope": "keyword.type",
       "settings": {
-        "foreground": "#003EAA"
+        "foreground": "#0074E8"
       }
     },
     {
@@ -318,7 +354,7 @@
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#058B00",
-        "fontStyle": "italic"
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -395,6 +431,13 @@
       }
     },
     {
+      "name": "Python dictionary key",
+      "scope": "meta.structure.dictionary.key.python",
+      "settings": {
+        "foreground": "#058B00"
+      }
+    },
+    {
       "name": "Object member",
       "scope": "meta.object.member",
       "settings": {
@@ -412,7 +455,7 @@
       "name": "Meta class body",
       "scope": "meta.class.body",
       "settings": {
-        "foreground": "#15141A"
+        "foreground": "#38383D"
       }
     },
     {
@@ -515,6 +558,17 @@
       }
     },
     {
+      "name": "Template expression markers",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#DD00A9"
+      }
+    },
+    {
       "name": "this keyword",
       "scope": "variable.language.this",
       "settings": {
@@ -572,7 +626,7 @@
       "name": "HTML structure tag",
       "scope": "meta.tag.structure.any.html",
       "settings": {
-        "foreground": "#8000D7"
+        "foreground": "#38383D"
       }
     },
     {
@@ -587,6 +641,19 @@
       ],
       "settings": {
         "foreground": "#DD00A9"
+      }
+    },
+    {
+      "name": "CSS class/ID selector",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.mixin.css",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.parent-selector.css",
+        "entity.other.attribute-name.scss"
+      ],
+      "settings": {
+        "foreground": "#0074E8"
       }
     },
     {
@@ -606,7 +673,7 @@
         "punctuation.definition.string.end.markdown"
       ],
       "settings": {
-        "foreground": "#5C5C5F"
+        "foreground": "#003EAA"
       }
     },
     {
@@ -626,6 +693,7 @@
       "scope": [
         "meta.selector",
         "meta.selector.css",
+        "entity.name.selector",
         "entity.name.tag.css",
         "entity.name.tag.scss"
       ],
@@ -822,6 +890,13 @@
       }
     },
     {
+      "name": "Markup strikethrough",
+      "scope": "markup.strikethrough",
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
       "name": "Markup inserted",
       "scope": ["markup.inserted", "markup.inserted.diff"],
       "settings": {
@@ -858,6 +933,7 @@
     {
       "name": "Diff header",
       "scope": [
+        "meta.diff.header",
         "meta.diff.header.from-file",
         "meta.diff.header.to-file",
         "meta.diff.header.git"
@@ -867,10 +943,24 @@
       }
     },
     {
+      "name": "Git rebase function",
+      "scope": "support.function.git-rebase",
+      "settings": {
+        "foreground": "#058B00"
+      }
+    },
+    {
+      "name": "Git rebase SHA",
+      "scope": "constant.sha.git-rebase",
+      "settings": {
+        "foreground": "#003EAA"
+      }
+    },
+    {
       "name": "Markup quote",
       "scope": ["markup.quote", "markup.quote.markdown"],
       "settings": {
-        "foreground": "#058B00",
+        "foreground": "#DD00A9",
         "fontStyle": "italic"
       }
     },
@@ -915,7 +1005,7 @@
       "name": "Markdown paragraph",
       "scope": "meta.paragraph.markdown",
       "settings": {
-        "foreground": "#15141A"
+        "foreground": "#38383D"
       }
     },
     {
@@ -967,6 +1057,13 @@
       }
     },
     {
+      "name": "Label",
+      "scope": "entity.name.label",
+      "settings": {
+        "foreground": "#38383D"
+      }
+    },
+    {
       "name": "Env files",
       "scope": ["source.env", "constant.numeric.env"],
       "settings": {
@@ -981,7 +1078,7 @@
         "meta.jsx.children.tsx"
       ],
       "settings": {
-        "foreground": "#15141A"
+        "foreground": "#38383D"
       }
     }
   ],
@@ -1165,7 +1262,7 @@
     "editorHint.foreground": "#058B00",
 
     "editorGutter.background": "#FFFFFF",
-    "editorGutter.modifiedBackground": "#FFA436",
+    "editorGutter.modifiedBackground": "#0061E0",
     "editorGutter.addedBackground": "#2AC3A2",
     "editorGutter.deletedBackground": "#A4000F",
 

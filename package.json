@@ -1,8 +1,8 @@
 {
   "name": "firefox-theme-ng",
   "displayName": "Firefox Theme NG",
-  "description": "A VS Code color theme inspired by Firefox's browser chrome — colors extracted directly from Firefox's built-in themes",
-  "version": "1.1.1",
+  "description": "A next-generation VS Code color theme inspired by Firefox's browser chrome",
+  "version": "1.2.0",
   "publisher": "tenkirin",
   "author": "tenkirin",
   "license": "MIT",
@@ -22,7 +22,7 @@
       "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=54FFBD",
+      "url": "https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00",
       "description": "Installs",
       "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
     },

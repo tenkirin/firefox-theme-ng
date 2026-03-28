@@ -1,12 +1,21 @@
 # Firefox Theme NG for VS Code
 
 [![Release](https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.webp?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
-[![Installs](https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=54FFBD)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
+[![Installs](https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
 [![Rating](https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.webp?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details)
 
 ![banner](./images/banner.png)
 
-A VS Code color theme inspired by Firefox's [browser chrome](https://developer.mozilla.org/en-US/docs/Glossary/Chrome) — not just DevTools, but the full UI palette you see every day. Colors are extracted directly from Firefox's built-in theme definitions.
+A next-generation VS Code color theme inspired by Firefox's [browser chrome](https://developer.mozilla.org/en-US/docs/Glossary/Chrome) — not just DevTools, but the full UI palette you see every day. Colors are extracted directly from Firefox's built-in theme definitions.
+
+## Highlights
+
+- **Firefox-native palette**: UI and token colors are taken directly from Firefox source files in `omni.ja`, so every major color choice stays anchored to the browser's real theme definitions.
+- **Split source model**: browser chrome CSS drives workbench surfaces such as sidebars, tabs, inputs, and status bars, while DevTools CSS drives syntax tokens such as keywords, strings, types, comments, and links.
+- **Balanced dark and light themes**: Firefox Dark NG and Firefox Light NG are built as equal first-class variants with the same structure and Firefox-matched palette counterparts.
+- **Consistent coverage**: each variant ships with `113` token color rules, `311` mapped scopes, and `312` workbench colors for broad editor coverage without uneven gaps between modes.
+- **Semantic token mapping**: syntax colors follow Firefox DevTools semantic categories, including body text, comments, keywords, definitions, properties, variables, strings, numbers, and links.
+- **Traceable color system**: workbench and token layers remain separate, making the theme easier to maintain and keeping UI colors from drifting away from syntax colors.
 
 ## Themes
 
@@ -37,8 +46,11 @@ Firefox Theme NG uses two source layers from Firefox's `omni.ja` assets:
 
 ## Credits
 
-- Original [Firefox Theme](https://github.com/firefox-theme/visual-studio-code) (MIT License)
 - Color values derived from Firefox (MPL 2.0). No MPL-licensed source code is included in this distribution
+- [Firefox Theme](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme) (MIT License)
+- [C/C++ Themes](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-themes) (MIT License)
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) (MIT License)
+- [Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight) (MIT License)
 
 ## License
 
