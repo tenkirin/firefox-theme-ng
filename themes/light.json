@@ -1405,7 +1405,7 @@
     "gitDecoration.deletedResourceForeground": "#A4000F",
     "gitDecoration.renamedResourceForeground": "#0074E8",
     "gitDecoration.untrackedResourceForeground": "#A47F00",
-    "gitDecoration.ignoredResourceForeground": "#5C5C5F",
+    "gitDecoration.ignoredResourceForeground": "#5C5C5F88",
     "gitDecoration.conflictingResourceForeground": "#8000D7",
     "gitDecoration.stageModifiedResourceForeground": "#0061E0",
     "gitDecoration.stageDeletedResourceForeground": "#A4000F",

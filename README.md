@@ -1,8 +1,8 @@
 # Firefox Theme NG for VS Code
 
-[![Release](https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.webp?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
-[![Installs](https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
-[![Rating](https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.webp?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details)
+[![Release](https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.avif?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
+[![Installs](https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.avif?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng)
+[![Rating](https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.avif?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9)](https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details)
 
 ![banner](./images/banner.png)
 

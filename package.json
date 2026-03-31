@@ -2,7 +2,7 @@
   "name": "firefox-theme-ng",
   "displayName": "Firefox Theme NG",
   "description": "A next-generation VS Code color theme inspired by Firefox's browser chrome",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "publisher": "tenkirin",
   "author": "tenkirin",
   "license": "MIT",
@@ -17,17 +17,17 @@
   "icon": "images/icon.png",
   "badges": [
     {
-      "url": "https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.webp?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF",
+      "url": "https://vsmarketplacebadges.dev/version/tenkirin.firefox-theme-ng.avif?label=Release&style=flat-square&colorA=2B2A33&colorB=0A84FF",
       "description": "Current version",
       "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.webp?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00",
+      "url": "https://vsmarketplacebadges.dev/installs/tenkirin.firefox-theme-ng.avif?label=Installs&style=flat-square&colorA=2B2A33&colorB=058B00",
       "description": "Installs",
       "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng"
     },
     {
-      "url": "https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.webp?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9",
+      "url": "https://vsmarketplacebadges.dev/rating/tenkirin.firefox-theme-ng.avif?label=Rating&style=flat-square&colorA=2B2A33&colorB=DD00A9",
       "description": "Rating",
       "href": "https://marketplace.visualstudio.com/items?itemName=tenkirin.firefox-theme-ng#review-details"
     }
