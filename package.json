@@ -2,7 +2,7 @@
   "name": "firefox-theme-ng",
   "displayName": "Firefox Theme NG",
   "description": "A next-generation VS Code color theme inspired by Firefox's browser chrome",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "publisher": "tenkirin",
   "author": "tenkirin",
   "license": "MIT",
@@ -48,6 +48,9 @@
     "color theme"
   ],
   "contributes": {
+    "configurationDefaults": {
+      "editor.minimap.showSlider": "always"
+    },
     "themes": [
       {
         "label": "Firefox Dark NG",
