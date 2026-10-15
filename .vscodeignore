@@ -146,3 +146,5 @@ vite.config.ts.timestamp-*
 .vscode/
 omni/
 *.vsix
+docs/
+.github/
